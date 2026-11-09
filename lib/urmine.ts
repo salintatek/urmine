@@ -908,7 +908,7 @@ async function initProject(): Promise<void> {
 
 async function loadHighlightCdn(): Promise<string> {
     const defaultUrl =
-        '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.2/styles/github.min.css" integrity="sha512-0aPQyyeZrWj9sCA46UlmWgKOP0mUipLQ6OZXu8l4IcAmD2u31EPEy9VcIMvl7SoAaKe8bLXZhYoMaE/in+gcgA==" crossorigin="anonymous" referrerpolicy="no-referrer">'
+        'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.2/styles/github.min.css'
 
     try {
         const data = await fs.readFile(cdnHighlightPath, 'utf-8')
