@@ -1,52 +1,52 @@
 {
-  "name": "urmine",
-  "version": "0.0.2",
-  "description": "A lightweight Markdown static site generator.",
-  "repository": "salintatek/urmine",
-  "module": "./lib/urmine.ts",
-  "type": "module",
-  "bin": {
-    "urmine": "./dist/mjs/urmine.js"
-  },
-  "files": [
-    "dist/"
-  ],
-  "scripts": {
-    "typecheck": "bun check"
-  },
-  "keywords": [
-    "urmine",
-    "markdown",
-    "markdown-to-html",
-    "static-site-generator",
-    "site-generator",
-    "html-generator",
-    "website-generator",
-    "documentation",
-    "docs",
-    "markdown-website",
-    "static-site",
-    "lightweight"
-  ],
-  "author": "salintatek",
-  "license": "MIT",
-  "dependencies": {
-    "chalk": "^5.4.1",
-    "chokidar": "^5.0.0",
-    "clean-css": "^5.3.3",
-    "highlight.js": "^11.11.1",
-    "html-minifier-terser": "^7.2.0",
-    "marked": "^16.1.1",
-    "marked-highlight": "^2.2.2",
-    "serve-static": "^2.2.1",
-    "terser": "^5.43.1"
-  },
-  "devDependencies": {
-    "@types/bun": "latest",
-    "@types/clean-css": "^4.2.11",
-    "@types/html-minifier-terser": "^7.0.2"
-  },
-  "peerDependencies": {
-    "typescript": "^7"
-  }
+    "name": "urmine",
+    "version": "0.0.2",
+    "description": "A lightweight Markdown static site generator.",
+    "repository": "salintatek/urmine",
+    "module": "./lib/urmine.ts",
+    "type": "module",
+    "bin": {
+        "urmine": "./dist/mjs/urmine.js"
+    },
+    "files": [
+        "dist/"
+    ],
+    "scripts": {
+        "typecheck": "bun check"
+    },
+    "keywords": [
+        "urmine",
+        "markdown",
+        "markdown-to-html",
+        "static-site-generator",
+        "site-generator",
+        "html-generator",
+        "website-generator",
+        "documentation",
+        "docs",
+        "markdown-website",
+        "static-site",
+        "lightweight"
+    ],
+    "author": "salintatek",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^5.4.1",
+        "chokidar": "^5.0.0",
+        "clean-css": "^5.3.3",
+        "highlight.js": "^11.11.1",
+        "html-minifier-terser": "^7.2.0",
+        "marked": "^16.1.1",
+        "marked-highlight": "^2.2.2",
+        "serve-static": "^2.2.1",
+        "terser": "^5.43.1"
+    },
+    "devDependencies": {
+        "@types/bun": "latest",
+        "@types/clean-css": "^4.2.11",
+        "@types/html-minifier-terser": "^7.0.2"
+    },
+    "peerDependencies": {
+        "typescript": "^7"
+    }
 }
